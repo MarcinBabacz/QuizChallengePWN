@@ -8,6 +8,11 @@ var question = [["Jak przeglądasz stronę internetową na co zwraczasz uwagę w
 var score = 0;
 var quesNum = 0;
 
+(function () {
+	displayQuiz();
+})();
+
+
 
 
 function displayQuiz(){
@@ -19,34 +24,14 @@ quest.innerHTML = question[quesNum][0];
      var opt = document.getElementById("choice"+j);
      opt.innerHTML = question[quesNum][j];
  }
- 
-	alert('quesNum' + quesNum);
 }
 
 
 
   function validate(item){
        
-       if(item === "choice"+question[quesNum][5]){
-
-       	score++;
-       }
-
-       if(item === "btn"+question[quesNum][5]){
-
-       	score++;
-       }
-
-         if(quesNum === 4){
-        	var mainBody = document.getElementById("quiz");
-        	mainBody.innerHTML = "<h1>"+"Your Score is:"+ score+"/5"+"</h1>"+"<p>"+"The usual width of parapet walls along Highways in hilly region, is 60 cm"+ "</p>"+"<p>"+"Design of horizontal and vertical alignments, super-elevation, sight distance and grades, is worst affected by speed of the vehicle"+ "</p>";
-       
-        
-
-        }
 
         quesNum++;
-		alert('validate quesNum' + quesNum);
         
      }
 
@@ -54,7 +39,6 @@ quest.innerHTML = question[quesNum][0];
 
 
 function listen(cl) {
-	alert('listenMe quesnum' + quesNum);
     validate(cl);
 	displayQuiz();
 }
