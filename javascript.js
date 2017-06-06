@@ -9,6 +9,11 @@ var score = 0;
 var quesNum = 0;
 var questNumber = Object.keys(question).length;
 
+document.addEventListener('DOMContentLoaded', function() {
+    displayQuiz();
+}, false);
+
+
 function displayQuiz(){
 
 var quest = document.getElementById("question");
@@ -18,8 +23,6 @@ quest.innerHTML = question[quesNum][0];
      var opt = document.getElementById("choice"+j);
      opt.innerHTML = question[quesNum][j];
  }
- 
-	alert('quesNum' + quesNum);
 }
 
 
