@@ -40,7 +40,6 @@ quest.innerHTML = question[quesNum][0];
 	else if (item === "d"){
        	score += question[quesNum][8];
 	}
-	alert(item + " " + score);
          if(quesNum  === questNumber - 1){
         	var mainBody = document.getElementById("quiz");
 			if (score < (-questNumber * 100 * 1 / 4)){
