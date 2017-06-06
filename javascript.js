@@ -8,12 +8,9 @@ var question = [["Jak przeglądasz stronę internetową na co zwraczasz uwagę w
 var score = 0;
 var quesNum = 0;
 
-(function () {
-	displayQuiz();
-})();
-
-
-
+document.addEventListener('DOMContentLoaded', function() {
+    displayQuiz();
+}, false);
 
 function displayQuiz(){
 
