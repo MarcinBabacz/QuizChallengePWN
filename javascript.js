@@ -43,19 +43,19 @@ quest.innerHTML = question[quesNum][0];
          if(quesNum  === questNumber - 1){
         	var mainBody = document.getElementById("quiz");
 			if (score < (-questNumber * 100 * 1 / 4)){
-				mainBody.innerHTML = "<h1>"+"Frontend"+ score+"/5"+"</h1>"+
-				"<h2>"+" ssssTwój zmysł artystyczny wskazuje na to, że świetnie odnajdziesz się we frontendzie."+ "</h2>"+
-				"<p><a href='https://reaktor.pwn.pl/kurs/front-end-developer/'>Zaposznaj się z ofertą i zapisz się!</a></p>";
+				mainBody.innerHTML = "<h1>GRATULUJE!! jesteś: Frontend</h1>"+
+				"<h2>"+"Twój zmysł artystyczny wskazuje na to, że świetnie odnajdziesz się we frontendzie."+ "</h2>"+
+				"<div id=\"mail\"><a href='https://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się !</a></div>";
 			}
 			else if (score > (questNumber * 100 * 1 / 4)){
-				mainBody.innerHTML = "<h1>Backend"+ score+"</h1>"+
+				mainBody.innerHTML = "<h1>GRATULUJE!! jesteś:Backend</h1>"+
 				"<h2>"+"Twoja umiejętność analitycznego myślenia predysponuje Cię do pracy w backendzie.</h2>"+ 
-				"<p>"+"<a href='https://reaktor.pwn.pl/kurs/back-end-developer/'>Zaposznaj się z ofertą i zapisz się!</a></p>";
+				"<div id=\"mail\">"+"<a href='https://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się !</a></div>";
 			}
 			else{
-				mainBody.innerHTML = "<h1>Fullstack"+ score+"</h1>"+
+				mainBody.innerHTML = "<h1>GRATULUJE!! jesteś:Fullstack</h1>"+
 				"<h2>"+"Posiadasz zdolności predysonujące Cię do pracy jako fullstack developer.<h/2>"+ 
-				"<p>"+"<a href='https://reaktor.pwn.pl/kurs/back-end-developer/'>Zaposznaj się z ofertą i zapisz się!</a>,</p>";
+				"<div id=\"mail\">"+"<a href='https://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się !</a></div>";
 			};
 
         }

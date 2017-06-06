@@ -11,7 +11,7 @@
 	}
 
 	.grid{
-
+		font-family: Poppins;
 		background-color: #fff;
 		width:80%;
 		min-height:400px;
@@ -35,8 +35,45 @@
     	text-align: center;
 		
     }
-
-
+	
+	   .grid h2{
+		
+		
+		margin: 20px 20px 20px 20px;
+    	padding: 10px 10px 10px 10px;
+    	background-color: #00000;
+    	color: #5a6772;
+    	font-size: 22px;
+    	text-align: center;
+		
+    }
+	
+	.grid #mail{
+		
+		font-size: 25px;
+    	text-align: center;
+		background-color: #001554;
+		color: #fff;
+		margin:auto;
+		width:150px;
+		
+		
+    }
+	.grid #mail:hover{
+		color: #fff;
+		background-color: #2198E8;
+		
+	}
+	.grid #mail a{
+		
+		color: #fff;
+		text-decoration:none;
+		
+		
+		
+	}
+	
+	
     .grid #question{
 		
     	font-family: sans-serif;
@@ -90,7 +127,6 @@
              #btn1, #btn2, #btn3, #btn4{
                  margin: 2px;
              }
-			 
 			 
 			 
 .prog {
