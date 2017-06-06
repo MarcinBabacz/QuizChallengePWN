@@ -24,9 +24,8 @@
     	 	   	     <button id="btn3" onclick="javascript:listen('c')"><span id="choice3"></span></button>
     	 	   	     <button id="btn4" onclick="javascript:listen('d')"><span id="choice4"></span></button>
     	 	   </div>
-				
-    	 	    <hr style="margin-top: 50px">
-				
+				<div>
+				</div>
 			
 
     	 	    <footer>
@@ -35,7 +34,26 @@
     	 </div> 
     </div>
 	
-
+<script>
+function progressBarSim(al) {
+  var bar = document.getElementById('Backend');
+  var status = document.getElementById('status');
+  status.innerHTML = al+"%";
+  bar.value = al;
+  al++;
+	var sim = setTimeout("progressBarSim("+al+")",50);
+	if(al == 80){
+	  status.innerHTML = "80%";
+	  bar.value = 80;
+	  clearTimeout(sim);
+	  var finalMessage = document.getElementById('finalMessage');
+	  finalMessage.innerHTML = "Backend";
+	}
+	 
+}
+var amountLoaded = 0;
+progressBarSim(amountLoaded);
+</script>
 	
 </body>
 </html>

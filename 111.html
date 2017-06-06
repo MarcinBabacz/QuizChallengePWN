@@ -1,6 +1,6 @@
 <progress id="Backend" value="0" max="100" style="width:300px;"></progress>
 <span id="status"></span>
-<h1 id="finalMessage"></h1>
+<h3 id="finalMessage"></h3>
 
 <script>
 function progressBarSim(al) {
@@ -10,7 +10,7 @@ function progressBarSim(al) {
   bar.value = al;
   al++;
 	var sim = setTimeout("progressBarSim("+al+")",50);
-	if(al == 80){
+	if(max == 80){
 	  status.innerHTML = "80%";
 	  bar.value = 80;
 	  clearTimeout(sim);

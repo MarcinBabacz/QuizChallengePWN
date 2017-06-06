@@ -65,7 +65,7 @@ function displayQuiz(){
 				mainBody.innerHTML = "<h1>Gratulacje! jesteś: Fullstack</h1>"+
 				"<h2>"+"Posiadasz zdolności predysponują Cię do pracy jako fullstack developer.<h/2>"+ 
 			
-				"<div id=\"mail\">"+"<a href= #section-content>Zapisz się !</a></div>";
+				"<div id=\"mail\">"+"<a href= 'https://reaktor.pwn.pl/kursy/'>Zapisz się !</a></div>";
 			};
 
         }
