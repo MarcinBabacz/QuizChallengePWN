@@ -51,8 +51,6 @@ quest.innerHTML = question[quesNum][0];
 			else{
 				mainBody.innerHTML = "<h1>Fullstack"+ score+"</h1>"+"<p>"+"The usual width of parapet walls along Highways in hilly region, is 60 cm"+ "</p>"+"<p>"+"Design of horizontal and vertical alignments, super-elevation, sight distance and grades, is worst affected by speed of the vehicle"+ "</p>";
 			};
-       
-        
 
         }
 
@@ -60,8 +58,6 @@ quest.innerHTML = question[quesNum][0];
         var progress = document.getElementById("progress");
 	progress.innerHTML = "<p>" + "Pytanie " + (quesNum + 1) + " z " + questNumber + ".</p>";
      }
-
-
 
 
 function listen(cl) {
