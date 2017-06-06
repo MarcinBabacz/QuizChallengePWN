@@ -1,9 +1,11 @@
 	
 	
 	.quiz{
-		width:90%;
+		width:100%;
 		background-color: #001554;
-		padding: 0px 0px 0px 0px;
+		
+		
+		padding: 40px 40px 40px 40px;
 		border-bottom: 2px solid #fff;
 		
 	}
@@ -12,6 +14,7 @@
 
 		background-color: #fff;
 		width:80%;
+		min-height:400px;
 		
 		margin:auto;
 		padding: 10px 50px 0px 50px;
