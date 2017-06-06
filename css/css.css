@@ -11,17 +11,20 @@
 	.grid{
 
 		background-color: #fff;
-		width:80%
-		height: 400px;
+		width:80%;
+		
 		margin:auto;
-		padding: 10px 50px 50px 50px;
+		padding: 10px 50px 0px 50px;
 		
 		border: 2px solid #cbcbcb;
 	}
     
    .grid h1{
     	
-    	font-family: sans-serif;
+    	
+		
+		font-family: Poppins;
+		
     	padding: 10px 10px 10px 10px;
     	background-color: #001554;
     	color: #fff;
@@ -34,6 +37,7 @@
     .grid #question{
 		
     	font-family: sans-serif;
+		font-family: Poppins;
     	font-size: 30px;
     	color: #5a6772;
     	text-align: center;
@@ -49,6 +53,7 @@
 
     #btn1, #btn2, #btn3, #btn4{
      
+	 font-family: Poppins;
      background-color: #001554;
      width: 45%;
      font-size: 20px;
@@ -82,3 +87,28 @@
              #btn1, #btn2, #btn3, #btn4{
                  margin: 2px;
              }
+			 
+			 
+			 
+.prog {
+padding: 3px;
+border: 1px solid #ccc;
+background: #eee;
+border-radius: 3px;
+} 
+
+.prog > .progBar {
+border-radius: 3px;
+background: #444;
+} 
+
+.srOnly {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0,0,0,0);
+border: 0;
+}
