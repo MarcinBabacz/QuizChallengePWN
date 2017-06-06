@@ -6,6 +6,11 @@
 	<title>Quiz</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<script type="text/javascript" src="javascript.js"></script>
+	<script>
+			(function () {
+			displayQuiz();
+		})();
+	</script>
 </head>	
 <body>
  <div class="grid">
@@ -16,10 +21,10 @@
 
     	 	   <p id="question"></p>
     	 	   <div id="buttons">
-    	 	   	     <button id="btn1" onclick="javascript:validate()"><span id="choice1"></span></button>
-    	 	   	     <button id="btn2" onclick="javascript:validate()"><span id="choice2"></span></button>
-    	 	   	     <button id="btn3" onclick="javascript:validate()"><span id="choice3"></span></button>
-    	 	   	     <button id="btn4" onclick="javascript:validate()"><span id="choice4"></span></button>
+    	 	   	     <button id="btn1" onclick="javascript:listen('a')"><span id="choice1"></span></button>
+    	 	   	     <button id="btn2" onclick="javascript:listen('b')"><span id="choice2"></span></button>
+    	 	   	     <button id="btn3" onclick="javascript:listen('c')"><span id="choice3"></span></button>
+    	 	   	     <button id="btn4" onclick="javascript:listen('d')"><span id="choice4"></span></button>
     	 	   </div>
 			   <button id="start" onclick="javascript:displayQuiz()"></button>
 

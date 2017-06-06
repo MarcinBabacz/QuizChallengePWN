@@ -7,7 +7,8 @@ var question = [["Jak przeglądasz stronę internetową na co zwraczasz uwagę w
 
 var score = 0;
 var quesNum = 0;
-alert('pod zmiennymi');
+
+
 
 function displayQuiz(){
 
@@ -17,14 +18,12 @@ quest.innerHTML = question[quesNum][0];
   for(j=1; j<=4; j++){
      var opt = document.getElementById("choice"+j);
      opt.innerHTML = question[quesNum][j];
-
  }
-
+ 
+	alert('quesNum' + quesNum);
 }
 
-(function () {
-    displayQuiz();
-})();
+
 
   function validate(item){
        
@@ -47,19 +46,15 @@ quest.innerHTML = question[quesNum][0];
         }
 
         quesNum++;
-
+		alert('validate quesNum' + quesNum);
         
      }
 
-var theParent = document.getElementById("buttons");
-theParent.addEventListener("click", listenMe, false);
- 
-function listenMe(e) {
-    if (e.target !== e.currentTarget) {
-        var clickedItem = e.target.id;
-        validat(clickedItem);
-    }
-    e.stopPropagation();
-    if(quesNum < 5){
-    displayQuiz();}
+
+
+
+function listen(cl) {
+	alert('listenMe quesnum' + quesNum);
+    validate(cl);
+	displayQuiz();
 }
