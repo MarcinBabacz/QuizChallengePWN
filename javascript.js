@@ -11,16 +11,17 @@ var questNumber = Object.keys(question).length;
 
 document.addEventListener('DOMContentLoaded', function() {
     displayQuiz();
+	var progress = document.getElementById("progress");
+	progress.innerHTML = "<p>" + "Pytanie " + (quesNum+1) + " z " + questNumber + ".</p>";
 }, false);
 
 
 function displayQuiz(){
 
-var quest = document.getElementById("question");
-quest.innerHTML = question[quesNum][0];
+	var quest = document.getElementById("question");
+	quest.innerHTML = question[quesNum][0];
 
         
-        var progress = document.getElementById("progress");
 	progress.innerHTML = "<p>" + "Pytanie " + (quesNum+1) + " z " + questNumber + ".</p>";
 
   for(j=1; j<=4; j++){
@@ -62,7 +63,7 @@ quest.innerHTML = question[quesNum][0];
 			}
 			else{
 				mainBody.innerHTML = "<h1>Gratulacje! jesteś: Fullstack</h1>"+
-				"<h2>"+"Posiadasz zdolności predysponująe Cię do pracy jako fullstack developer.<h/2>"+ 
+				"<h2>"+"Posiadasz zdolności predysponują Cię do pracy jako fullstack developer.<h/2>"+ 
 			
 				"<div id=\"mail\">"+"<a href= #section-content>Zapisz się !</a></div>";
 			};
