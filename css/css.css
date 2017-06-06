@@ -54,7 +54,7 @@
     	text-align: center;
 		background-color: #001554;
 		color: #fff;
-		margin:50px auto;
+		margin:100px auto;
 		padding: 10px 10px 10px 10px;
 		width:150px;
 		
@@ -76,7 +76,7 @@
 	
 	
     .grid #question{
-		
+		min-height:100px;
     	font-family: sans-serif;
 		font-family: Poppins;
     	font-size: 30px;
