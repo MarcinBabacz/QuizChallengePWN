@@ -1,4 +1,16 @@
-var question = [["The usual width of parapet walls along Highways in hilly region, is", "50 cm", "60 cm", "70 cm", "100 cm", 2],
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/> 
+	<meta name = "strona testowa" content = "To jest strona testowa 1">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	
+
+ <div class="grid">
+<!--	<script>
+	var question = [["The usual width of parapet walls along Highways in hilly region, is", "50 cm", "60 cm", "70 cm", "100 cm", 2],
                ["Design of horizontal and vertical alignments, super-elevation, sight distance and grades, is worst affected by", "width of the vehicle", "length of the vehicle", "height of the vehicle", "speed of the vehicle", 4],
                ["Thickness of a pavement may be reduced considerably by", "compaction of soil","stabilisation of soil",  "drainage of soil", "combination of all the above.", 4],
                ["For the movement of vehicles at an intersection of two roads, without any interference, the type of grade separator generally preferred to, is",  "delta", "trumpet", "diamond interchange", "clover leaf.", 4],
@@ -7,7 +19,7 @@ var question = [["The usual width of parapet walls along Highways in hilly regio
 
 var score = 0;
 var quesNum = 0;
-alert('pod zmiennymi');
+
 function displayQuiz(){
 
 var quest = document.getElementById("question");
@@ -63,3 +75,25 @@ function listenMe(e) {
     displayQuiz();}
 }
 `
+	</script>-->
+    	 <div id="quiz">
+    	 	   <h1>Quiz</h1>
+    	 	   <hr style="margin-top: 20px">
+
+    	 	   <p id="question"></p>
+    	 	   <div id="buttons">
+    	 	   	     <button id="btn1"><span id="choice1"></span></button>
+    	 	   	     <button id="btn2"><span id="choice2"></span></button>
+    	 	   	     <button id="btn3"><span id="choice3"></span></button>
+    	 	   	     <button id="btn4"><span id="choice4"></span></button>
+    	 	   </div>
+			   <button id="start" onclick="javascript:displayQuiz"></button>
+
+    	 	    <hr style="margin-top: 50px">
+
+    	 	    <footer>
+    	 	    	<p id="progress">Question x of y.</p>
+    	 	    </footer>
+    	 </div> 
+    </div>
+</html>
