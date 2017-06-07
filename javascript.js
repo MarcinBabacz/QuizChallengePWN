@@ -66,7 +66,7 @@ function moveBar(sc) {
     var width = 50;
 	var side=1;
 	var ile=3;
-    var id1 = setInterval(frame, 10);
+    var id1 = setInterval(frame, 7);
     
 	function frame() {
 		
