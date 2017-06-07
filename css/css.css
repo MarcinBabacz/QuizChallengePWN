@@ -2,7 +2,7 @@
 	
 	.quiz{
 		width:100%;
-		background-color: #FFF7F6;
+		background-color: #FFF;
 		padding: 40px 40px 40px 40px;
 		border-bottom: 2px solid #fff;
 		
@@ -10,7 +10,7 @@
 
 	.grid{
 		font-family: Poppins;
-		background-color: #FFF7F6;
+		background-color: #FFF;
 		width:90%;
 		min-height:400px;
 		margin:auto;
