@@ -50,7 +50,6 @@ function fpula(){
 				pulaMinus+= question[i][j];
 				
 			}
-
 		}
 
 	}
@@ -95,6 +94,9 @@ function moveBar(sc) {
 				elem.style.width = width + '%';
 			}else{
 				clearInterval(id);
+				
+				var mainBody = document.getElementById("quiz");
+				mainBody.innerHTML = "<h1>Sprawdzam prezefencje</h1>";
 			}	
 		}
     }
@@ -121,9 +123,11 @@ function moveBar(sc) {
         
 
 		if(quesNum  === questNumber-1){
+			
         	var mainBody = document.getElementById("quiz");
 
 			udzial=Math.round(((score+Math.abs(pulaMinus))/(Math.abs(pulaMinus)+pulaPlus))*100);
+			
 			
 		if (score < (-questNumber * 100 * 1 / 3)){
 			
@@ -140,6 +144,16 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
+				
+				"<div id=\"picture\">"+
+				"<center>"+
+				
+					"<img src=\"images/front.jpg\">"+
+					
+				"</center>"+
+				
+				"<\div>"+
+				
 				"<hr style=\"margin-top: 20px\">"+
 				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się!</a></div>";
 				
@@ -159,6 +173,17 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
+				
+				"<div id=\"picture\">"+
+				"<center>"+
+				
+					"<img src=\"images/back.jpg\">"+
+					
+				"</center>"+
+				
+				"<\div>"+
+				
+				
 				"<hr style=\"margin-top: 20px\">"+
 			
 				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
@@ -181,16 +206,26 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
+				
+				"<div id=\"picture\">"+
+				"<center>"+
+					"<img src=\"images/back.jpg\"><br>"+
+					"<img src=\"images/front.jpg\">"+
+					
+				"</center>"+
+				
+				"<\div>"+
+				
 				"<hr style=\"margin-top: 20px\">"+
 				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
 				
 				;
 				
 			}
+			
 			moveBar(udzial);
-		
 		 }
-
+		
 		quesNum++;
 
      }
