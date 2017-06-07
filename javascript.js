@@ -148,7 +148,7 @@ function moveBar(sc) {
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				
 			}else if (score > (questNumber * 100 * 1 / 3)){
@@ -168,7 +168,7 @@ function moveBar(sc) {
 				"</div>"+
 				"<hr style=\"margin-top: 20px\">"+
 			
-				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 								
 				
@@ -189,7 +189,7 @@ function moveBar(sc) {
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				;
 				
