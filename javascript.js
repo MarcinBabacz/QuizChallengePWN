@@ -133,7 +133,7 @@ function moveBar(sc) {
 			udzial=Math.round(((score+Math.abs(pulaMinus))/(Math.abs(pulaMinus)+pulaPlus))*100);
 			
 			
-		if (score < (-questNumber * 100 * 1 / 3)){
+		if (udzial<=34){
 			
 				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Front-end</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
@@ -162,7 +162,7 @@ function moveBar(sc) {
 				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				
-			}else if (score > (questNumber * 100 * 1 / 3)){
+			}else if (udzial>=66){
 				
 				
 				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Back-end</h1>"+
