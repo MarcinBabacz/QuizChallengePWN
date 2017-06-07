@@ -3,8 +3,6 @@
 	.quiz{
 		width:100%;
 		background-color: #001554;
-		
-		
 		padding: 40px 40px 40px 40px;
 		border-bottom: 2px solid #fff;
 		
@@ -13,21 +11,17 @@
 	.grid{
 		font-family: Poppins;
 		background-color: #fff;
-		width:80%;
+		width:90%;
 		min-height:400px;
-		
 		margin:auto;
 		padding: 10px 50px 0px 50px;
-		
 		border: 2px solid #cbcbcb;
 	}
     
    .grid h1{
     	
     	
-		
 		font-family: Poppins;
-		
     	padding: 10px 10px 10px 10px;
     	background-color: #001554;
     	color: #fff;
@@ -39,7 +33,7 @@
 	   .grid h2{
 		
 		
-		margin: 20px 20px 20px 20px;
+		margin: 20px 20px 20px 0px;
     	padding: 10px 10px 10px 10px;
     	background-color: #00000;
     	color: #5a6772;

@@ -131,10 +131,16 @@ function moveBar(sc) {
 				"<hr style=\"margin-top: 20px\">"+
 				"<h2>"+"Twój zmysł artystyczny wskazuje na to, że świetnie odnajdziesz się we frontendzie."+ "</h2>"+
 				
+				 "<div class=\"progress\">"+
+				" <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+				"<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+				"<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+				" </div>"+
+				
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-				
+				"<hr style=\"margin-top: 20px\">"+
 				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się!</a></div>";
 				
 				
@@ -144,27 +150,39 @@ function moveBar(sc) {
 				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Backend</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
 				"<h2>"+"Twoja umiejętność analitycznego myślenia predysponują Cię do pracy w backendzie.</h2>"+
-				
+				"<div class=\"progress\">"+
+				 " <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+				 "<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+				  "<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+			   " </div>"+
 							
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-
+				"<hr style=\"margin-top: 20px\">"+
 			
-				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'t>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
 				
 								
 				
 			}else{
-				mainBody.innerHTML = "<h1>Gratulacje! jesteś: Fullstack</h1>"+
+				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Fullstack developer</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
-				"<h2>"+"Posiadasz zdolności predysponująe Cię do pracy jako fullstack developer.<h/2>"+ 
+				"<h2>"+"Posiadasz zdolności predysponująe Cię do pracy jako fullstack developer.</h2>"+ 
+				
+				
+        "<div class=\"progress\">"+
+         " <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+         "<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+          "<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+       " </div>"+
+				
 				
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-
-				"<div id=\"mail\">"+"<a href= #section-content>Zapisz się!</a></div>";
+				"<hr style=\"margin-top: 20px\">"+
+				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
 				
 				;
 				
