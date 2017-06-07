@@ -54,7 +54,7 @@
     	text-align: center;
 		background-color: #001554;
 		color: #fff;
-		margin:100px auto;
+		margin:50px auto;
 		padding: 10px 10px 10px 10px;
 		width:150px;
 		
@@ -105,7 +105,7 @@
    
     }
 
-    #progress{
+    #progres{
 
     	color: #2b2b2b;
     	font-size: 18px;
@@ -129,26 +129,24 @@
                  margin: 2px;
              }
 			 
-			 
-.prog {
-padding: 3px;
-border: 1px solid #ccc;
-background: #eee;
-border-radius: 3px;
-} 
-
-.prog > .progBar {
-border-radius: 3px;
-background: #444;
-} 
-
-.srOnly {
-position: absolute;
-width: 1px;
-height: 1px;
-padding: 0;
-margin: -1px;
-overflow: hidden;
-clip: rect(0,0,0,0);
-border: 0;
+  .progress {
+    width: 90%;
+    margin:auto;
+	font-size:20px;
+  }
+ 
+ #myProgress {
+    position: relative;
+	margin:auto;
+    width: 90%;
+    height: 80px;
+    background-color: #5a6772;
 }
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #001554;
+}		 
+
+			 

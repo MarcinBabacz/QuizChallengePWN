@@ -6,6 +6,33 @@
 	<title>Quiz</title>
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 	<script type="text/javascript" src="javascript.js"></script>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	
+ <style>
+  .progress {
+    width: 90%;
+    margin:auto;
+	font-size:20px;
+  }
+ 
+ #myProgress {
+    position: relative;
+	margin:auto;
+    width: 90%;
+    height: 80px;
+    background-color: #2198E8;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #001554;
+}
+  
+  </style>
+	
+	
 <!--	<script>
 		window.onload = displayQuiz();
 	</script>-->
@@ -25,12 +52,15 @@
     	 	   	     <button id="btn4" onclick="javascript:listen('d')"><span id="choice4"></span></button>
     	 	   </div>
 
+			     
+
+			
     	 	    <hr style="margin-top: 50px">
 				
 			
 
     	 	    <footer>
-    	 	    	<p id="progress">Pytanie 1 z 5.</p>
+    	 	    	<p id="progres"></p>
     	 	    </footer>
     	 </div> 
     </div>
