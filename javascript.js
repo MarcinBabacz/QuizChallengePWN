@@ -1,8 +1,15 @@
-var question = [["Jak przeglądasz stronę internetową na co zwraczasz uwagę w pierszej kolejności?", "Obrazki", "Układ strony", "Szata graficzna", "Sfekty specjalne", -50, +50, -25, +25],
-               ["Jeśli kupowałbyś samochód na jakie rzeczy zwróciłbyś uwagę w pierwszej kolejności?", "Niezawodność", "Wygląd", "Osiągi", "Szybkość", +100, +25, -25, 0],
-               ["Czy lubisz się uczyć języków obcych?", "Tak", "Raczej tak",  "Raczej nie", "Zdecydowanie nie", +50, +25, -25, 0],
-               ["Jaki zestaw umiejętności Cie najtrafniej określa?",  "Pracowity i dokładny", "Kreatywny i chłonny nowych umiejętności", "Ostrożny i podejrzliwy", "Wzrokowiec i chłonny nowych wrażeń", +75, -50, +50, -100],
-               ["Gdzie byś najchętniej spędził czas wolny?", "W interaktywnym laboratorium technologii", "W galerii sztuki", "Na łonie natury", "W krzemowej dolinie", +100, -100, 0, +50]];
+var question = [
+				["Jak przeglądasz stronę internetową, na co zwracasz uwagę w pierwszej kolejności?", "Obrazki", "Układ strony", "Szata graficzna", "Efekty specjalne", -100, +100, -50, +50],
+				["Przy zakupie samochodu, na jakie rzeczy zwracasz uwagę w pierwszej kolejności?", "Niezawodność", "Wygląd", "Osiągi", "Szybkość", +100, -100, +25, +50],
+				["Czy lubisz uczyć się języków obcych?", "Tak", "Raczej tak",  "Raczej nie", "Zdecydowanie nie", +100, +25, -50, -100],
+				["Jaki zestaw umiejętności najtrafniej Cię określa?",  "Kreatywny i głodny nowych umiejętności", "Pracowity i dokładny", "Ostrożny i podejrzliwy", "Wzrokowiec i chłonny nowych wrażeń", -50, +100, +25, -100],
+				["Gdzie byś najchętniej spędził czas wolny?", "W interaktywnym labie technologicznym", "W galerii sztuki", "Na łonie natury", "W krzemowej dolinie", +100, -100, 0, +50],
+				["Na co zwracasz uwagę w pierwszej kolejności?", "Kolor samochodu", "Ile koni mechanicznych ma silnik", "Zużycie benzyny", "Markę samochodu", -100, +100, +50, -25],
+				["Co jest dla Ciebie ważniejsze przy szykowaniu prezentacji?", "Treść", "Szablon graficzny", "Funkcjonalność", "Animacje i efekty wizualne", +50, -100, +100, -50],
+				["Z jakiego przedmiotu w szkole byłeś najlepszy?", "Plastyka", "Muzyka", "Fizyka", "Matematyka", -100, -25, +75, +100],
+				["Twoja pasja to:", "Czytanie książek", "Sport", "Rozwiązywanie zagadek", "Oglądanie filmów", 0, 0, +100, -100],
+				["Jak pracujesz?", "Siła w pracy zespołowej", "Samodzielnie", "Lubię konsultować się z innymi", "Z nikim nic nie konsultuję", +100, -100, +50, 0]				
+			   ];
 
 
 			   
@@ -155,7 +162,7 @@ function moveBar(sc) {
 				"<\div>"+
 				
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				
 			}else if (score > (questNumber * 100 * 1 / 3)){
@@ -186,7 +193,7 @@ function moveBar(sc) {
 				
 				"<hr style=\"margin-top: 20px\">"+
 			
-				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 								
 				
@@ -217,7 +224,7 @@ function moveBar(sc) {
 				"<\div>"+
 				
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				;
 				
