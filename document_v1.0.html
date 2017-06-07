@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/> 
+	<meta name = "strona testowa" content = "To jest strona testowa 1">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script type="text/javascript" src="javascript.js"></script>
+<!--	<script>
+		window.onload = displayQuiz();
+	</script>-->
+</head>	
+<body>
+ <div class="grid">
+
+    	 <div id="quiz">
+    	 	   <h1>Quiz preferencji Front-end Back-end</h1>
+    	 	   <hr style="margin-top: 20px">
+
+    	 	   <p id="question"></p>
+    	 	   <div id="buttons">
+    	 	   	     <button id="btn1" onclick="javascript:listen('a')"><span id="choice1"></span></button>
+    	 	   	     <button id="btn2" onclick="javascript:listen('b')"><span id="choice2"></span></button>
+    	 	   	     <button id="btn3" onclick="javascript:listen('c')"><span id="choice3"></span></button>
+    	 	   	     <button id="btn4" onclick="javascript:listen('d')"><span id="choice4"></span></button>
+    	 	   </div>
+				<div>
+				</div>
+			
+
+    	 	    <footer>
+    	 	    	<p id="progress">Pytanie 1 z 5.</p>
+    	 	    </footer>
+    	 </div> 
+    </div>
+	
+<script>
+function progressBarSim(al) {
+  var bar = document.getElementById('Backend');
+  var status = document.getElementById('status');
+  status.innerHTML = al+"%";
+  bar.value = al;
+  al++;
+	var sim = setTimeout("progressBarSim("+al+")",50);
+	if(al == 80){
+	  status.innerHTML = "80%";
+	  bar.value = 80;
+	  clearTimeout(sim);
+	  var finalMessage = document.getElementById('finalMessage');
+	  finalMessage.innerHTML = "Backend";
+	}
+	 
+}
+var amountLoaded = 0;
+progressBarSim(amountLoaded);
+</script>
+	
+</body>
+</html>

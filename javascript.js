@@ -5,6 +5,8 @@ var question = [["Jak przeglądasz stronę internetową na co zwraczasz uwagę w
                ["Gdzie byś najchętniej spędził czas wolny?", "W interaktywnym laboratorium technologii", "W galerii sztuki", "Na łonie natury", "W krzemowej dolinie", +100, -100, 0, +50]];
 
 
+			   
+			   
 var score = 0;
 var quesNum = 0;
 	var pulaPlus = 0;
