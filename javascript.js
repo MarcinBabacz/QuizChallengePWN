@@ -9,9 +9,7 @@ var question = [
 				["Z jakiego przedmiotu w szkole byłeś najlepszy?", "Plastyka", "Muzyka", "Fizyka", "Matematyka", -100, -25, +75, +100],
 				["Twoja pasja to:", "Czytanie książek", "Sport", "Rozwiązywanie zagadek", "Oglądanie filmów", 0, 0, +100, -100],
 				["Jak pracujesz?", "Siła w pracy zespołowej", "Samodzielnie", "Lubię konsultować się z innymi", "Z nikim nic nie konsultuję", +100, -100, +50, 0]				
-			   ];
-
-			   
+];  
 			   
 var score = 0;
 var quesNum = 0;
