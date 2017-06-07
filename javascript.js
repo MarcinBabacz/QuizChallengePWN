@@ -131,7 +131,7 @@ function moveBar(sc) {
 			
 		if (score < (-questNumber * 100 * 1 / 3)){
 			
-				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Frontend</h1>"+
+				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Front-end</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
 				"<h2>"+"Twój zmysł artystyczny wskazuje na to, że świetnie odnajdziesz się we frontendzie."+ "</h2>"+
 				
@@ -144,7 +144,7 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-				
+				"<h2>Będziesz mógł zgłębić się w języki programowania:</h2>"+
 				"<div id=\"picture\">"+
 				"<center>"+
 				
@@ -155,13 +155,13 @@ function moveBar(sc) {
 				"<\div>"+
 				
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\"><a href='http://reaktor.pwn.pl/kurs/front-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				
 			}else if (score > (questNumber * 100 * 1 / 3)){
 				
 				
-				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Backend</h1>"+
+				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Back-end</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
 				"<h2>"+"Twoja umiejętność analitycznego myślenia predysponują Cię do pracy w backendzie.</h2>"+
 				"<div class=\"progress\">"+
@@ -173,7 +173,7 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-				
+				"<h2>Będziesz mógł zgłębić się w języki programowania:</h2>"+
 				"<div id=\"picture\">"+
 				"<center>"+
 				
@@ -186,7 +186,7 @@ function moveBar(sc) {
 				
 				"<hr style=\"margin-top: 20px\">"+
 			
-				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href='http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 								
 				
@@ -206,7 +206,7 @@ function moveBar(sc) {
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
 				"</div>"+
-				
+				"<h2>Będziesz mógł zgłębić się w języki programowania:</h2>"+
 				"<div id=\"picture\">"+
 				"<center>"+
 					"<img src=\"images/back.jpg\"><br>"+
@@ -217,7 +217,7 @@ function moveBar(sc) {
 				"<\div>"+
 				
 				"<hr style=\"margin-top: 20px\">"+
-				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Zapisz się!</a></div>";
+				"<div id=\"mail\">"+"<a href= 'http://reaktor.pwn.pl/kurs/back-end-developer/'>Dowiedz się więcej!</a></div>";
 				
 				;
 				
