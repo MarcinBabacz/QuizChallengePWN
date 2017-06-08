@@ -78,23 +78,18 @@
     	text-align: center;
     }
 
-    .buttons{
-
-    	margin-top: 30px;
-		margin-left: 30px;
-	
+    #buttons{
+		display:flex;
+        flex-wrap:wrap;
     }
 	
 	#picture{
-		
-		
-		
-		
+	
 	}
 
-
     #btn1, #btn2, #btn3, #btn4{
-     
+
+	 text-align: center;
 	 font-family: Poppins;
      background-color: #001554;
      width: 45%;
@@ -136,18 +131,46 @@
 	font-size:20px;
   }
  
- #myProgress {
-    position: relative;
-	margin:auto;
-    width: 90%;
-    height: 80px;
-    background-color: #5a6772;
+@media (max-width: 750px) {
+    #btn1, #btn2, #btn3, #btn4{
+     font-size: 20px;
+	width: 100%;
+	    }
+	
+	.grid h1{
+    	font-size: 20px;
+    }
+	
+	   .grid h2{
+    	font-size: 20px;
+	
+    }
+	    .grid #question{
+    	font-size: 20px;
+    }
 }
-#myBar {
-    position: absolute;
-    width: 1%;
-    height: 100%;
-    background-color: #001554;
-}		 
 
-			 
+@media (max-width: 360px) {
+   
+	.quiz{
+		padding: 10px 10px 10px 10px;	
+	}
+	.grid{
+		width:100%;
+		padding: 10px 50px 0px 50px;
+	}
+
+   #btn1, #btn2, #btn3, #btn4{
+		font-size: 13px;
+		width: 100%;
+	}
+	.grid h1{
+    	font-size: 17px;
+    }
+	   .grid h2{
+    	font-size: 14px;	
+    }
+	    .grid #question{
+    	font-size: 13px;
+    }
+}
