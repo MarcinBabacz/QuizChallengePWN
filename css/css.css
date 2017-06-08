@@ -33,11 +33,10 @@
 	   .grid h2{
 		
 		
-		margin: 20px 20px 20px 0px;
-    	padding: 10px 10px 10px 10px;
-    	background-color: #00000;
+    	font-family: sans-serif;
+		font-family: Poppins;
+    	font-size: 20px;
     	color: #5a6772;
-    	font-size: 22px;
     	text-align: center;
 		
     }
@@ -58,8 +57,7 @@
 	.grid #mail:hover{
 		color: #fff;
 		background-color: #2198E8;
-		display:flex;
-		
+	
 	}
 	.grid #mail a{
 		
@@ -72,10 +70,10 @@
 	
 	
     .grid #question{
-		min-height:100px;
+		min-height:80px;
     	font-family: sans-serif;
 		font-family: Poppins;
-    	font-size: 30px;
+    	font-size: 28px;
     	color: #5a6772;
     	text-align: center;
     }
