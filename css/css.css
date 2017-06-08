@@ -50,13 +50,15 @@
 		color: #fff;
 		margin:50px auto;
 		padding: 10px 10px 10px 10px;
-		width:250px;
+		width:40%;
+		min-width:100px;
 		
 		
     }
 	.grid #mail:hover{
 		color: #fff;
 		background-color: #2198E8;
+		display:flex;
 		
 	}
 	.grid #mail a{
@@ -107,6 +109,21 @@
     	font-size: 18px;
     }
 
+	#picture{
+
+	
+    	width: 90%;
+    }
+	
+	
+	#picture  img {
+    background-color: #001554;
+	
+	width: 60%;
+	
+	
+	}
+	
     #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
      
      background-color: #2198E8;
@@ -148,6 +165,11 @@
 	    .grid #question{
     	font-size: 20px;
     }
+	
+	.grid #mail{
+		
+		font-size: 18px;
+	}
 }
 
 @media (max-width: 360px) {
@@ -173,4 +195,10 @@
 	    .grid #question{
     	font-size: 13px;
     }
+	
+		.grid #mail{
+		
+		font-size: 14px;
+	}
+	
 }

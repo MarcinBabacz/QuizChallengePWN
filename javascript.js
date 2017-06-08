@@ -67,7 +67,12 @@ fpula();
 
 function moveBar(sc) {
     var elem = document.getElementById("myBar");
-    var width = 50;
+	var ba = document.getElementById("ba");
+	var fu = document.getElementById("fu");
+	var fr = document.getElementById("fr");
+    
+	
+	var width = 50;
 	var side=1;
 	var ile=3;
     var id1 = setInterval(frame, 7);
@@ -79,6 +84,9 @@ function moveBar(sc) {
 				if (width < 100) {
 				width++;
 				elem.style.width = width + '%';
+				ba.style.width = 20+'%';
+				fu.style.width = 20+'%';
+				fr.style.width = 20+'%';
 				}else{
 					side=2;
 					ile--;
@@ -108,7 +116,13 @@ function moveBar(sc) {
 
 
 
-
+function print(){
+	
+	
+	
+	
+	
+}
 
 
   function validate(item){
@@ -140,9 +154,9 @@ function moveBar(sc) {
 				"<h2>"+"Twój zmysł artystyczny wskazuje na to, że świetnie odnajdziesz się we frontendzie."+ "</h2>"+
 				
 				 "<div class=\"progress\">"+
-				" <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
-				"<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
-				"<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+				" <div id=\"fr\" class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+				"<div id=\"fu\" class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+				"<div id=\"ba\"  class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
 				" </div>"+
 				
 				"<div id=\"myProgress\">"+
@@ -168,11 +182,11 @@ function moveBar(sc) {
 				mainBody.innerHTML = "<h1>Gratulacje! Twój profil to Back-end</h1>"+
 				"<hr style=\"margin-top: 20px\">"+
 				"<h2>"+"Twoja umiejętność analitycznego myślenia predysponują Cię do pracy w backendzie.</h2>"+
-				"<div class=\"progress\">"+
-				 " <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
-				 "<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
-				  "<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
-			   " </div>"+
+				 "<div class=\"progress\">"+
+				" <div id=\"fr\" class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+				"<div id=\"fu\" class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+				"<div id=\"ba\"  class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+				" </div>"+
 							
 				"<div id=\"myProgress\">"+
 					"<div id=\"myBar\"></div>"+
@@ -201,10 +215,10 @@ function moveBar(sc) {
 				
 				
         "<div class=\"progress\">"+
-         " <div class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
-         "<div class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
-          "<div class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
-       " </div>"+
+				" <div id=\"fr\" class=\"progress-bar progress-bar-success\" style=\"width: 35%\">Front-end</div>"+
+				"<div id=\"fu\" class=\"progress-bar progress-bar-warning\" style=\"width: 30%\">Full-stack</div>"+
+				"<div id=\"ba\"  class=\"progress-bar progress-bar-danger\" style=\"width: 35%\">Beck-end</div>"+
+				" </div>"+
 				
 				
 				"<div id=\"myProgress\">"+
